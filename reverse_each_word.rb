@@ -13,7 +13,7 @@ def reverse_each_word(string)
 	new_sentence.join(' ')
 end
 
-def collect(string)
+def reverse_each_word(string)
   words = string.split(" ")
   new_sentence = []
   words.collect do |word|
